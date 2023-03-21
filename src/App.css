@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Grand+Hotel&family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(248, 244, 237);
+}
+
+h1 {
+  font-size: 30px;
+  background-color: rgb(201, 243, 229);
+  padding: 20px;
+  width: 80%;
+  border-radius: 70px;
+  box-shadow: 5px 5px 5px rgb(116, 111, 111);
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  column-gap: 3%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.name {
+  color: rgb(24, 23, 23);
+  font-size: 18px;
+  background-color: white;
+}
+
+.age {
+  color: rgb(70, 6, 131);
+  font-size: 16px;
+  background-color: white;
+}
+
+.bloodGroup{
+  color: rgb(121, 6, 6);
+  font-size: 16px;
+  background-color: white;
+}
+
+.email {
+  font-size: 12px;
+  background-color: white;
+}
+
+.gender {
+  font-size: 12px;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  padding: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(201, 243, 229) ;
+  color: rgb(45, 48, 48);
+  margin-bottom: 15px;
+  background-color: white;
+  
+}
+
+img {
+width: 100px;
+background-color: white;
+
+}
+
+.title {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  
+}
